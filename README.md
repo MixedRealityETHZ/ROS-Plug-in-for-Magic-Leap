@@ -25,12 +25,14 @@ login to your unity account and get the following asset to simplyfy the magic le
 
 
 Select `Open` and navigate to the folder where this repo is installed. Once you find the folder with the repo name, click the Open button. Unity will then begin to open the folder (this could take several minutes).
-![Setup on Unity. Note the colored circles.](https://github.com/ROS-Plugin-for-Magic-Leap-2/Unity/blob/feature/turtlesim/Images/Documentation/mixed_reality_turtlesim_test_unity_setup.png)
-
 
 Open the Scene ml2_deployment_1 under Asstes/Scenes 
 
 Once Unity launches, navigate to the `Hierarchy` tab and click on `ROSConnectionPrefab` (refer to the red circle in the image).
+
+
+![Setup on Unity. Note the colored circles.](https://github.com/MixedRealityETHZ/ROS-Plug-in-for-Magic-Leap/blob/main/Documentation/Unity_Connection%20setup%20.png)
+
 
 Afterwards, navigate to the `Inspector` tab. Take note of the 4 scripts.
 
