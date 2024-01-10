@@ -12,8 +12,7 @@ Install the following applications to setup the application:
 - Unity Hub: https://unity.com/download
     - use the Hub to install the 2022.3.11f1 Unity Editor version
 
-To setup the Magic Leap 2 with Unity, refer to the guide below: 
-https://developer-docs.magicleap.cloud/docs/guides/unity/getting-started/unity-getting-started/
+- To setup the Magic Leap 2 with Unity, refer to the guide below:  https://developer-docs.magicleap.cloud/docs/guides/unity/getting-started/unity-getting-started/
 login to your unity account and get the following asset to simplyfy the magic leap setup: 
     - https://assetstore.unity.com/packages/tools/integration/magic-leap-setup-tool-194780 
 
