@@ -22,17 +22,16 @@ login to your unity account and get the following asset to simplyfy the magic le
 Select `Open` and navigate to the folder where this repo is installed. Once you find the folder with the repo name, click the Open button. Unity will then begin to open the folder (this could take several minutes).
 ![Setup on Unity. Note the colored circles.](https://github.com/ROS-Plugin-for-Magic-Leap-2/Unity/blob/feature/turtlesim/Images/Documentation/mixed_reality_turtlesim_test_unity_setup.png)
 
+
+Open the Scene ml2_deployment_1 under Asstes/Scenes 
+
 Once Unity launches, navigate to the `Hierarchy` tab and click on `ROSConnectionPrefab` (refer to the red circle in the image).
 
 Afterwards, navigate to the `Inspector` tab. Take note of the 4 scripts.
 
 The first script is for setting up the ROS-TCP connector. **Note that the `ROS IP Address` and `Ros Port` should match based on what was inputted during the roslaunch of the `ros_tcp_endpoint` (refer to the green circle).**
 
-Once the necessary fields in the `Inspector` have been setup, press the play button to begin running the Unity game.
- - To control the turtlesim, press `W`, `S`, `A`, `D` to move the turtle    in the respective directions. This verifies that the `Twist Publisher` is working. 
-	 - Note that from testing and if the ROS stuff is setup in WSL2, the commands are extremely slow. The turtlesim will not seem to be    responsive, but it is picking up the commanded messages.
- - To reset the turtlesim node, press `R` on your keyboard. This verifies that the `Reset Caller` works. 
- - To verify that the `Pose Subscriber` is working, go to the Console, and you should see messages being printed that show the Pose of the turtlesim.
+
 
 
     
