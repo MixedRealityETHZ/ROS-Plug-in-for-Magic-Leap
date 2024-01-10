@@ -28,19 +28,6 @@ Afterwards, navigate to the `Inspector` tab. Take note of the 4 scripts.
 
 The first script is for setting up the ROS-TCP connector. **Note that the `ROS IP Address` and `Ros Port` should match based on what was inputted during the roslaunch of the `ros_tcp_endpoint` (refer to the green circle).**
 
-The last 3 scripts relate to the ROS topics and services that we want to publish and subscribe to. To set them up and know more about them, refer below (and refer to the blue circle on the figure).
-- Twist Publisher
-	- This commands the linear and angular velocities that the turtlesim will be running.
-	- Topic Name: `/turtle1/cmd_vel`
-	- Publish Message Frequency: 10
-		- Note that this can be varied based on how quickly we want to send messages.
-- Reset Caller
-	- Resets the turtlesim node. The turtlesim should go back to the start position.
-	- Service Name: `/reset`
-- Pose Subscriber
-	- This prints to the Console the pose of the turtlesim
-	- Topic Name: `/turtle1/pose`
-
 Once the necessary fields in the `Inspector` have been setup, press the play button to begin running the Unity game.
  - To control the turtlesim, press `W`, `S`, `A`, `D` to move the turtle    in the respective directions. This verifies that the `Twist Publisher` is working. 
 	 - Note that from testing and if the ROS stuff is setup in WSL2, the commands are extremely slow. The turtlesim will not seem to be    responsive, but it is picking up the commanded messages.
@@ -54,7 +41,8 @@ Once the necessary fields in the `Inspector` have been setup, press the play but
 
 In your Ubuntu 20.04 system (OS or WSL Ubuntu 20.04), open up 2 terminals.
 
-First, in one terminal, run the following command. This brings up the ROS-TCP Connection and launches `roscore` underneath the hood:
+First, in one terminal, run the following command. This brings up the ROS-TCP Connection and launches `roscore` underneath the hood, e.g.:
+
 ```
 roslaunch ros_tcp_endpoint endpoint.launch tcp_ip:=127.0.0.1 tcp_port:=10000
 ```
