@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13966, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: baseline_scene
+  m_EditorClassIdentifier: 
+  templateScene: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
+  templateName: MvpScene
+  description: 'Baseline scene that has has been setup to publish and subscribe to
+    ROS topics to command Unity robot. Additionally, it subscribes to PointCloud2
+    topic to visualize what the robot see. '
+  preview: {fileID: 0}
+  dependencies:
+  - dependency: {fileID: 2100000, guid: 8acbae034b3d2ca42bbca7e21e3f964f, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: b5ff7d4831357f1438fa8c8adb0cd5dc, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 11400000, guid: 1b7359921b91a4830ae57b1c5b22caeb, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: 0b94d8fa9e7e3f54f8ba10eac275ec80, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 11400000, guid: 1d15599f177254e03b3698260c33d600, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 2100000, guid: 0a328b723b7201142986276d292502c4, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 11400000, guid: f1d2df8bcd83d4410b03e8a6ddd5eac4, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 4b8089fd78123c643998ee91beb76df7, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 4447380225872839756, guid: 1af1b67da9a50fc4ab36e2cf2c30e8d6, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 3885009520023495737, guid: 7e8ecfd17cd58c247916864b74797f3f, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 863246206611208022, guid: 57cef4e772232da4b92e8f8931f3cc75, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: 8e30ea50d6b692349a46d177ded15435, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 11400000, guid: f53165fb8c4d340e3ad973ec7784242e, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 2100000, guid: 51187810e7114ee4687016c7fa476970, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: 842bbd47851d7a14a80670ef9ca35de3, type: 2}
+    instantiationMode: 0
+  templatePipeline: {fileID: 11500000, guid: 98fbd4fd400619f449fcd9bea3c2efb3, type: 3}
+  badge: {fileID: 0}
+  addToDefaults: 0
