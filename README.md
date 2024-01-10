@@ -6,18 +6,12 @@ https://github.com/MixedRealityETHZ/ROS-Plug-in-for-Magic-Leap/blob/main/ROS%20P
 and for a video demo: 
 https://drive.google.com/file/d/1U-3vY0MfHQ0c8sJFA6zQiUBgGqsD_S83/view 
 
+## Setup
 
-## Packages
 Install the following applications to setup the application:
 - Unity Hub: https://unity.com/download
-    - make sure to install the 2022.3.11f1 Unity Edito version
+    - use the Hub to install the 2022.3.11f1 Unity Editor version
 
-and additionally download following packages: 
-- https://github.com/jiaqchen/ROS-TCP-Connector.git?path=/com.unity.robotics.visualizations
-- https://github.com/jiaqchen/ROS-TCP-Connector.git?path=/com.unity.robotics.ros-tcp-connector
-
-  
-## Setup
 To setup the Magic Leap 2 with Unity, refer to the guide below: 
 https://developer-docs.magicleap.cloud/docs/guides/unity/getting-started/unity-getting-started/
 login to your unity account and get the following asset to simplyfy the magic leap setup: 
