@@ -1,6 +1,11 @@
 # ROS-Plug-in-for-Magic-Leap
 
-# Spot Demo
+For a detailed description of the project please check out following paper: 
+https://github.com/MixedRealityETHZ/ROS-Plug-in-for-Magic-Leap/blob/main/ROS%20Plug%20in%20for%20Magic%20Leap%20Final%20Report.pdf
+
+and for a video demo: 
+https://drive.google.com/file/d/1U-3vY0MfHQ0c8sJFA6zQiUBgGqsD_S83/view 
+
 
 ## Packages
 Install the following applications to setup the application:
